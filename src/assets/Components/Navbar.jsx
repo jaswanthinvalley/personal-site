@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router,Routes, Route , BrowserRouter, Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <div className='flex justify-center p-4 pt-4'>
                 <img
                     className='h-14 w-14 rounded-full'
-                    src='src/assets/images/jaswanth_photo.jpg'
+                    src='https://pbs.twimg.com/profile_images/1791828029683216384/PuKAhhXJ_400x400.jpg'
                     alt='Profile'
                 />
             </div>
