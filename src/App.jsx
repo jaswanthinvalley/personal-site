@@ -1,27 +1,21 @@
-
 import './App.css';
-import Navbar from './assets/Components/Navbar';
-import Hero from './assets/Components/Hero';
-import Smallnavbar from './assets/Components/Smallnavbar';
-import Intro from './assets/Components/Intro';
-import Works from './assets/Components/Works';
+import React from 'react';
+import {BrowserRouter,Routes,Route } from 'react-router-dom'
+import About from './assets/Pages/About';
+import Error from './assets/Pages/Error';
+import Projects from './assets/Pages/Projects';
+import Blog from './assets/Pages/Blog';
 
 function App() {
   return (
-    <div className=''>
-          <div className='bg-black'>
-      <div className='flex justify-center w-full'>        
-      <Navbar/>
-      </div>
-      <div className='w-full h-full bg-black'>
-        <Hero/>
-        <Intro/>
-        <div><Works/></div>
-      </div>
-
-
-    </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<About/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/error' element={<Error/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
