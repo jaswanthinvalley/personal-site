@@ -7,7 +7,7 @@ import Works from '../Components/Works'
 const About = () => {
   return (
     <div>
-      <div className=''>
+      <div className=' h-screen bg-black'>
         <div className='bg-black'>
           <div className='flex justify-center w-full'>
             <Navbar />
