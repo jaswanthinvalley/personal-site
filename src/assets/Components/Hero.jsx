@@ -25,7 +25,7 @@ const Hero = () => {
           <a href='https://x.com/Jaswant23480367'>
             <FaSquareXTwitter className='text-sky-500 transform hover:scale-125 transition-transform duration-300 text-2xl mx-3' />
           </a>
-          <a href='https://www.instagram.com/jaswanth.py/'>
+          <a href='https://www.instagram.com/jash.explorer/'>
             <FaInstagram className='text-sky-500 transform hover:scale-125 transition-transform duration-300 text-2xl mx-3' />
           </a>
         </div>
