@@ -31,11 +31,28 @@ const Hero = () => {
         </div>
       </div>
       <div className='mt-4 sm:mt-0'>
-        <img
-  className="h-52 w-full object-cover object-top rounded-md hover:scale-105 transition-transform duration-200"
+<img
+  className="
+    w-full
+    h-44 
+    sm:h-52 
+    md:h-60 
+    object-cover 
+    object-top 
+    rounded-md 
+    transition-transform 
+    duration-200 
+    hover:scale-105 
+    motion-reduce:transform-none
+    sm:hover:scale-105
+    touch-manipulation
+  "
+  style={{ WebkitTapHighlightColor: 'transparent' }}
   src="https://media.licdn.com/dms/image/v2/D5603AQHtvvWgXka0QA/profile-displayphoto-shrink_800_800/B56ZWaKPWbGUAc-/0/1742048132204?e=1756944000&v=beta&t=AZUiIaIkQ1eQBGTQ9QnkoB1iG7R0ai7eeRhmRJeVc2Q"
   alt="Profile"
 />
+
+
 
 
 
